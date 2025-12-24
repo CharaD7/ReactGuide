@@ -1,5 +1,6 @@
 import Greeting from "./components/Greeting";
 import ProductInfo from "./components/ProductInfo";
+import ProductList from "./components/ProductList";
 import UsersList from "./components/UsersList";
 
 const App = () => {
@@ -15,6 +16,8 @@ const App = () => {
 			<ProductInfo />
 			<hr />
 			<UsersList />
+			<hr />
+			<ProductList />
 		</section>
   )
 }
