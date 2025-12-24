@@ -1,23 +1,15 @@
-import Greeting from "./components/Greeting";
-import ProductInfo from "./components/ProductInfo";
-import ProductList from "./components/ProductList";
-import UsersList from "./components/UsersList";
+import Person from "./components/Person";
 
 const App = () => {
 	const myName = "Chara";
+	const age = 48;
 
   return (
 		<section>
 			<p>2 + 2 = {2 + 2}</p>
 			My name is <strong>{ myName }</strong>
 			<hr />
-			<Greeting username={myName} />
-			<hr />
-			<ProductInfo />
-			<hr />
-			<UsersList />
-			<hr />
-			<ProductList />
+			<Person name={myName} age={age} />
 		</section>
   )
 }
