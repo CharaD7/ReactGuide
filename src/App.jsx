@@ -1,14 +1,12 @@
-import Footer from './components/Footer';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
 
 const App = () => {
+	const myName = "Chara";
+
   return (
-		<>
-			<Header />
-			<MainContent />
-			<Footer />
-		</>
+		<section>
+			<p>2 + 2 = {2 + 2}</p>
+			My name is <strong>{ myName }</strong>
+		</section>
   )
 }
 
