@@ -1,5 +1,6 @@
 import Greeting from "./components/Greeting";
 import ProductInfo from "./components/ProductInfo";
+import UsersList from "./components/UsersList";
 
 const App = () => {
 	const myName = "Chara";
@@ -12,6 +13,8 @@ const App = () => {
 			<Greeting username={myName} />
 			<hr />
 			<ProductInfo />
+			<hr />
+			<UsersList />
 		</section>
   )
 }
