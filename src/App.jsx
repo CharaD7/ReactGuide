@@ -1,17 +1,10 @@
-import Person from "./components/Person";
-import Product from "./components/Product";
+import Weather from './components/Weather'
 
 const App = () => {
-	const myName = "Chara";
-	const age = 48;
 
   return (
 		<section>
-			<p>2 + 2 = {2 + 2}</p>
-			My name is <strong>{ myName }</strong>
-			<hr />
-			<Person name={myName} age={age} />
-			<Product name="Backpack" price="GHS250" />
+			<Weather temperature={18} />
 		</section>
   )
 }
