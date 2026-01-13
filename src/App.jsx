@@ -1,14 +1,10 @@
-import Weather from './components/Weather'
-import UserStatus from './components/UserStatus'
-import Greeting from './components/Greeting'
+import Counter from './components/Counter'
 
 const App = () => {
 
   return (
 		<section>
-			<Weather temperature={18} />
-			<UserStatus loggedIn={true} isAdmin={true} />
-			<Greeting timeOfDay="afternoon" />
+			<Counter />
 		</section>
   )
 }
